@@ -117,7 +117,7 @@ library(keras)
 
 ```{r, echo = TRUE}
 # Load helper.R
-source("2_Code/helper.R")
+source("2_Code/helper_2.R")
 ```
 
 <br>

@@ -667,7 +667,7 @@ income_lm <- fit(lm_workflow,
 ---
 
 
-# Fit Decision tree
+# Fit decision tree
 
 
 .pull-left4[
@@ -710,7 +710,7 @@ income_dt <- fit(dt_workflow,
 ---
 
 
-# Fit Random Forest
+# Fit random forest
 
 
 .pull-left4[

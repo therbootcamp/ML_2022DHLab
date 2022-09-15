@@ -35,8 +35,8 @@ knitr::opts_chunk$set(comment = NA,
                       fig.width = 6, 
                       fig.height = 6,
                       fig.align = 'center',
-                      echo = FALSE, 
-                      eval = FALSE, 
+                      echo = TRUE, 
+                      eval = TRUE, 
                       warning = FALSE,
                       message = FALSE)
 
@@ -251,8 +251,8 @@ lm_pred <-
 # get predicted values from training data
 lm_pred <-
   price_lm %>% 
-  predict(new_data = airbnb_train) %>% 
-  bind_cols(airbnb_train %>% select(price))
+  predict(new_data = airbnb_test) %>% 
+  bind_cols(airbnb_test %>% select(price))
 ```
 
 

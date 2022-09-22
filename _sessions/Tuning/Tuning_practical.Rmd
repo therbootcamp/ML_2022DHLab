@@ -252,7 +252,6 @@ ridge_grid <-
 
 ```{r}
 collect_metrics(ridge_grid)
-
 ```
 
 8. OK, that's kind of hard to interpret, given that we'd have to scan 100 rows. Instead, let's plot the `penalty` value on the x axis, and the performance metrics on the y axis. Use the code below to do so.
